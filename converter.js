@@ -26,17 +26,17 @@ document.getElementById("currencyForm").addEventListener('submit', async functio
     const daMoeda = document.getElementById('daMoeda').value;
     const paraMoeda = document.getElementById('paraMoeda').value;
 
-    const exchangeRate = getExchangeRate(daMoeda, paraMoeda);
+    const exchangeRate =   await getExchangeRate(daMoeda, paraMoeda);
+    
 
     if(exchangeRate){
         const convertedValue = valor * exchangeRate;
-
         const conversao = document.getElementById('conversao');
 
         conversao.textContent = `Resultado: ${convertedValue.toFixed(2)} ${paraMoeda}`;
     }else{
         alert('Não foi possível buscar o valor da cotação!');
     }
-    
+
 });
 

@@ -28,8 +28,12 @@
 
 # Conclusions
 
+### Below you can see the project in its final version, simple and straight to the point. Note that there are not many CSS attributes as the focus is on functionality.
 
-# Used Tecnologies
+<img src="imgs/gif example.gif" style="margin-bottom: 20px;">    
+
+
+# Used Technologies
 
  - [Api Exchange Rates](https://www.exchangerate-api.com/)
  - [ConvertCoins (project used)](https://github.com/VictorEvangelista2/ConvertCoin)

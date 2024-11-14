@@ -25,7 +25,6 @@ document.getElementById("currencyForm").addEventListener('submit', async functio
     const valor = parseFloat(document.getElementById('amount').value);
     const daMoeda = document.getElementById('daMoeda').value;
     const paraMoeda = document.getElementById('paraMoeda').value;
-
     const exchangeRate =   await getExchangeRate(daMoeda, paraMoeda);
     
 
@@ -39,4 +38,3 @@ document.getElementById("currencyForm").addEventListener('submit', async functio
     }
 
 });
-
